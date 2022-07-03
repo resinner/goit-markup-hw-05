@@ -649,6 +649,7 @@ li.nav-link:not(:last-child) {
 .project-type {
   font-size: 16px;
   line-height: 1.88;
+  color: var(--second-text-color);
 }
 
 .portfolio-overlay {
