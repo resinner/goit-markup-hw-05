@@ -696,6 +696,8 @@ li.nav-link:not(:last-child) {
   pointer-events: initial;
 
   transition: translate var(--anim1), opacity var(--anim1), visibility var(--anim1);
+  
+  
 }
 
 .backdrop.is-hidden {
@@ -710,6 +712,7 @@ li.nav-link:not(:last-child) {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   width: 528px;
+  max-width: 100%;
   height: 581px;
   padding: 40px;
 
